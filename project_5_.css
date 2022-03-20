@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    overflow:hidden;
+    /* background-image: url('background.jpeg'); */
+    background-size: cover;
+    /* background-size: 100vw 100vh; */
+    height:100vh;
+    background-color: #0a1d3d;
+}
+.taskbar
+{
+    width:100%;
+    position:absolute;
+    bottom: 0;
+    background-color: #f3f3f3;
+    display:flex;
+    justify-content: center;
+}
+.right_taskbar
+{
+    position: absolute;
+    right:0;
+}
+.start_menu
+{
+    position:absolute;
+    /* bottom:6.4vh; */
+    bottom: -120.6vh;
+    width:100%;
+    text-align: center;
+}
+.start_menu img{
+    border-radius: 5px;
+}
